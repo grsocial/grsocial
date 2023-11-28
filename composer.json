@@ -1,0 +1,23 @@
+{
+    "name": "santanakojak/systemadelivery",
+    "description": "Projeto REFEIÇÕES GORETE",
+    "authors": [
+        {
+            "name": "SantanaKojak",
+            "email": "gorete.1969@refeicoesgorete.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Adm\\": "adm/app",
+            "Core\\": "core",
+            "App\\": "app/sts",
+            "Sts\\": "sts"
+            
+        }
+    },
+    "require": {
+        "monolog/monolog": "^2.0",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
